@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base style for calculator buttons -->
+    <style name="CalculatorButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:background">#4CAF50</item> <!-- Ensure background is green -->
+    </style>
+
+    <!-- Style for number buttons -->
+    <style name="NumberButtonStyle" parent="CalculatorButtonStyle">
+        <!-- No need to redefine background here if it's the same -->
+    </style>
+
+    <!-- Style for operator buttons -->
+    <style name="OperatorButtonStyle" parent="CalculatorButtonStyle">
+        <!-- No need to redefine background here if it's the same -->
+    </style>
+
+    <!-- Style for function buttons -->
+    <style name="FunctionButtonStyle" parent="CalculatorButtonStyle">
+        <!-- No need to redefine background here if it's the same -->
+    </style>
+
+    <!-- Style for special operation buttons -->
+    <style name="SpecialButtonStyle" parent="CalculatorButtonStyle">
+        <!-- No need to redefine background here if it's the same -->
+    </style>
+
+</resources>
